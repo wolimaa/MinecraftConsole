@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftConsole.Domain", "MinecraftConsole.Domain\MinecraftConsole.Domain.csproj", "{B62915E9-141B-42A2-A1D4-C910636B139F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftConsole.Windows", "MinecraftConsole.Windows\MinecraftConsole.Windows.csproj", "{E72155D8-1CAE-4144-9474-B16935A571F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftConsole.Application", "MinecraftConsole.Application\MinecraftConsole.Application.csproj", "{AC6C0EA2-7F96-4477-8EE1-79B4144E009E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftConsole.Infrastructure", "MinecraftConsole.Infrastructure\MinecraftConsole.Infrastructure.csproj", "{B9E8FF62-9560-4AC0-87B5-63B24E5071E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftConsole.Api", "MinecraftConsole.Api\MinecraftConsole.Api.csproj", "{0652E11D-F667-4BCC-8C4E-FC81D606DDD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B62915E9-141B-42A2-A1D4-C910636B139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62915E9-141B-42A2-A1D4-C910636B139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62915E9-141B-42A2-A1D4-C910636B139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62915E9-141B-42A2-A1D4-C910636B139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72155D8-1CAE-4144-9474-B16935A571F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72155D8-1CAE-4144-9474-B16935A571F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72155D8-1CAE-4144-9474-B16935A571F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72155D8-1CAE-4144-9474-B16935A571F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6C0EA2-7F96-4477-8EE1-79B4144E009E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6C0EA2-7F96-4477-8EE1-79B4144E009E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6C0EA2-7F96-4477-8EE1-79B4144E009E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6C0EA2-7F96-4477-8EE1-79B4144E009E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9E8FF62-9560-4AC0-87B5-63B24E5071E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9E8FF62-9560-4AC0-87B5-63B24E5071E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9E8FF62-9560-4AC0-87B5-63B24E5071E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9E8FF62-9560-4AC0-87B5-63B24E5071E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0652E11D-F667-4BCC-8C4E-FC81D606DDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0652E11D-F667-4BCC-8C4E-FC81D606DDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0652E11D-F667-4BCC-8C4E-FC81D606DDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0652E11D-F667-4BCC-8C4E-FC81D606DDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87D5DBFB-2C54-4F4E-84E7-A913269AA576}
+	EndGlobalSection
+EndGlobal
